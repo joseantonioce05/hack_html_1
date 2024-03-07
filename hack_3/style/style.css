@@ -1,0 +1,69 @@
+:root {
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue {
+    background-color: var(--bg-blue);
+    height: 12rem;
+    width: 100%;
+}
+
+.wine {
+    background-color: var(--bg-wine);
+}
+
+.wine.one {
+    height: 24rem;
+    width: 100%;
+}
+
+.wine.two, .wine.five, .wine.six, .wine.seven {
+    margin: 2rem auto 0 auto;
+    height: 10rem;
+    width: 80%;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.wine.three, .wine.four, .wine.six, .wine.seven {
+    margin: 2rem 0 0 0;
+    height: 10rem;
+    width: 39.8%;
+}
+
+.wine.three, .wine.six {
+    margin-left: auto;
+    margin-right: 0.5rem;
+}
+
+.wine.four, .wine.seven {
+    margin-right: auto;
+}
+
+.wine.eight {
+    margin-top: 2rem;
+    height: 10rem;
+    width: 100%;
+}
+
+

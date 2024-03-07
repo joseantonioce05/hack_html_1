@@ -1,0 +1,50 @@
+:root {
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    float: left;
+    width: 100%;
+}
+
+.blue {
+    background-color: var(--bg-blue);
+    float: left;
+    height: 12rem;
+    width: 100%;
+}
+
+.wine {
+    background-color: var(--bg-wine);
+}
+
+.wine.one {
+    float: left;
+    height: 24rem;
+    width: 100%;
+}
+
+.wine.two, .wine.three, .wine.four, .wine.five {
+    margin: 2rem 0 0 0 ;
+    float: left;
+    height: 10rem;
+    width: 80%;
+}
+
+.wine.six {
+    margin: 2rem auto 0 auto;
+    float: left;
+    height: 8rem;
+    width: 98%;
+}
